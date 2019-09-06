@@ -6,18 +6,23 @@
 #define OR ||
 
 bool isPrime(int number){
-  for(int i =1 ;i<=sqrt(number);i++){
-    if(number%i == 0 AND (i!=1 OR i!= number)){
-      return false;
-    }
-  }
-  return true;
+	if(number == 1 OR number == 0)
+			return false;
+	for(int i =2 ;i<=(number);i++){
+		    if(number%i == 0 AND i!= number)
+		      return false;
+		  return true;
+		}
 }
 
 int main(void) {
   int number ;
-  printf("Enter any Number");
-  scanf("%d",&number);
-  isPrime(number)?printf("true"):printf("false");
+ // printf("Enter any Number");
+ // scanf("%d",&number);
+  printf("%d",isPrime(4));
+  printf("%d",isPrime(5));
+  printf("%d",isPrime(3));
+  printf("%d",isPrime(0));
+  printf("%d",isPrime(1));
   return 0;
 }
