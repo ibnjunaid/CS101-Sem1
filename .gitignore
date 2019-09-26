@@ -1,5 +1,3 @@
 a.out
- *.out 
- test/ 
- *.*.swp 
- *.swp
+*.out
+ test\/
