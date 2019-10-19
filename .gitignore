@@ -1,5 +1,8 @@
-a.out
- *.out 
- test/ 
- *.*.swp 
- *.swp
+a.out 
+.vscode
+.vscode/*
+*.out
+*/a.out
+*.swp
+test/*
+test/
