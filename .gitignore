@@ -1,3 +1,14 @@
+<<<<<<< HEAD
 a.out
 *.out
  test\/
+=======
+a.out 
+.vscode
+.vscode/*
+*.out
+*/a.out
+*.swp
+test/*
+test/
+>>>>>>> ac8b96febcbd35d115335c809eeb438c52b571ab

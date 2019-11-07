@@ -2,7 +2,7 @@
  	Objective:: Write a C program and add that to environment variable 
 				that inits a "C" program file 
 		features:
-			1.Should be able to make file name as parameter
+			1.Should be able to take file name as parameter
  */
 
 #include<stdio.h>
